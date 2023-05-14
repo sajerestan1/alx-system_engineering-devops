@@ -1,39 +1,32 @@
-# 0x08. Networking Basics 2
+# 0x08. Networking basics #1
 
-## Resources:books:
-Read or watch:
-* [Different Types of Network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
-* [MAC address](https://whatismyipaddress.com/mac-address)
-* [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
-* [Localhost](https://whatismyipaddress.com/localhost)
-* [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
-* [Docker sed](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
+## Resource
 
-----
-## Learning objectives:bulb:
+- [What is localhost](https://en.wikipedia.org/wiki/Localhost)
+- [What is 0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0)
+- [What is the hosts file](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)
+- [Netcat examples](https://www.thegeekstuff.com/2012/04/nc-command-examples/)
 
+## Tasks
 
-## **General**
+<details>
+<summary><a href="./0-change_your_home_IP">0. Change your home IP</a></summary><br>
+<a href='https://postimg.cc/949cJmZ5' target='_blank'><img src='https://i.postimg.cc/W4Wtpt43/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/">Read this because the checker is running on docker</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
 
-* What is localhost/127.0.0.1
-* What is 0.0.0.0
-* What is /etc/hosts
-* How to display your machine’s active network interfaces
+<details>
+<summary><a href="./1-show_attached_IPs">1. Show attached IPs</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kjn0h65Z/image.png' border='0' alt='image'/></a>
+</details>
 
-------
-
-### [0. Change your home IP](./0-change_your_home_IP)
-
-### [1. Show attached IPs](./1-show_attached_IPs)
-
-### [2. Port listening on Localhost](./100-port_listening_on_localhost)
-
-
-------
-
-## Author
-* **Joseph Mahiuha** - [Mahiuha](https://github.com/Mahiuha)
-
------
-
-
+<details>
+<summary><a href="./100-port_listening_on_localhost">2. Port listening on localhost</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/9QTZ8dJh/image.png' border='0' alt='image'/></a>
+</details>
