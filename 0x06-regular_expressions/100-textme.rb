@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
-name = ARGV[0].scan(/\[from:(\w+|\+?\d+)\] \[to:(\w+|\+?\d+)\] \[flags:(\-?\d:\-?\d:\-?\d:\-?\d:\-?\d)\]/)
-puts "#{name[0][0]},#{name[0][1]},#{name[0][2]}"
+
+from = ARGV[0].scan(/from:(.*?)\]/)
+to = ARGV[0].scan(/to:(.*?)\]/)
+flags = ARGV[0].scan(/flags:(.*?)\]/)
+puts [from, to, flags].join(',')
